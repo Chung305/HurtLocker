@@ -64,4 +64,10 @@ public class JerksonParser {
         return input;
     }
 
+    public  void print(){
+        for(String each: objectSplitter){
+            System.out.println(each);
+        }
+    }
+
 }
